@@ -1,22 +1,18 @@
-# Kotlin for Android Developers (the book)
+Problem Statement
+There was no weather app with a simplistic UI (without the distracting and heavy data consuming animations) to predict the weather forecast for the next 7 days with the functionality of choosing a region on basis of Pincode.
 
-This is the code you can use to follow the book.
+Solution:
+With weather app, you can predict 7 days weather. You can change the location in the settings tab, by entering your location Pincode in the textfield.
 
-[https://antonioleiva.com/kotlin-android-developers-book/](https://antonioleiva.com/kotlin-android-developers-book/)
+Functionality & Concepts used
+The API used is Openweather API and the layout is constrained. The API requests the required data from the server as soon as the app is opened. The app has a simple UI and fetches the weather details with the help of an API and converts the required information into the data to calculate and display the predicted temperature range for the next 7 as well as the high and low temperature of the current day. Majorly Kotlin was used with a jist of dbhelper.
 
-Are you tired of using an ancient, inexpressive and unsafe language to develop your Android apps? Do you cry out loud every time you see a Null Pointer Exception in your bug tracker? Then Kotlin is your solution! A language specifically created for Java developers, easy to learn, expressive, null safe and really intuitive. Your productivity will boost and your apps will become more robust. Learn Kotlin the easy way by example and discover the tricks that will make coding easier.
+App link and Future Scope:
+https://github.com/samarthgoyal22/KotlinApp.git
+We are planning to add features like wind speed, precipitation chances, humidity percentage, wind direction, UV rate
+We’ll try to improve UI and make it more attractive.
+Add maps and GPS location, weather will be shown based on GPS coordinates.
 
-And now, it's officially supported by Google!
+Screenshots of application
 
-
-
-## About the book
-
-[In this book](https://antonioleiva.com/kotlin-android-developers-book/), I'll be creating an Android app from ground using Kotlin as the main language. The idea is to learn the language by example, instead of following a typical structure. I'll be stopping to explain the most interesting concepts and ideas about Kotlin, comparing it with Java 7. This way, you can see what the differences are and which parts of the language will help you speed up your work.
-
-[This book](https://antonioleiva.com/kotlin-android-developers-book/) is not meant to be a language reference, but a tool for Android developers to learn Kotlin and be able to continue with their own projects by themselves. I'll be solving many of the typical problems we have to face in our daily lives by making use of the language expressiveness and some other really interesting tools and libraries.
-
-[The book](https://antonioleiva.com/kotlin-android-developers-book/) is very practical, so it is recommended to follow the examples and the code in front of a computer and try everything it's suggested. You could, however, take a first read to get a broad idea and then dive into practice.
-
-
-
+! https://github.com/samarthgoyal22/KotlinApp/blob/main/Screenshot%202022-01-07%20223632.png
