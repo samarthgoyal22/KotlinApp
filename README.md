@@ -15,4 +15,4 @@ Add maps and GPS location, weather will be shown based on GPS coordinates.
 
 Screenshots of application
 
-! https://github.com/samarthgoyal22/KotlinApp/blob/main/Screenshot%202022-01-07%20223632.png
+<img src="https://github.com/samarthgoyal22/KotlinApp/blob/main/Screenshot%202022-01-07%20223632.png" width="100%" >
